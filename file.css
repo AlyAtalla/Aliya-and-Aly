@@ -1,4 +1,32 @@
-#welcome-section{
-    padding:100%;
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .welcome-section {
+      padding: 50%;
+      text-align: center;
+      background-color: #1f1e1e;
+      display: flex;
+      
+    }
+  .nav-bar {
+    width: 100%;
+    height: fit-content;
+    background-color: #b31717;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .text-position {
+    text-align: right;
+    display: flex;
   }
